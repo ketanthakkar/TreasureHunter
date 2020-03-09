@@ -1,0 +1,116 @@
+body {
+    background-image: linear-gradient(141deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+}
+
+.enter-name {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.username {
+    font-size: 25px;
+}
+
+.teasure-board {
+    display: flex;
+    justify-content: center;
+}
+
+.game {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.board-row:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.user-display {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.square {
+    color: #424242;
+    background: #fffdfc;
+    border: 2px solid #000000;
+    float: left;
+    font-size: 96px;
+    font-weight: bold;
+    line-height: 80px;
+    height: 80px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 80px;
+  }
+
+  .square:focus {
+    outline: none;
+  }
+
+  .winner-list > header {
+    font-size: 40px;
+    color: #424242;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .player-detail {
+    display: flex;
+  }
+
+  .player-name, .player-score {
+    font-size: 30px;
+    color: #424242;
+    margin: 5px 20px;
+  }
+
+  .game-display {
+    font-size: 48px;
+    color: #424242;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .action-buttons {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .button:focus {
+    outline: none;
+  }
+  
+  .button:active {
+    box-shadow: 0 1px #424242;
+    transform: translateY(1px);
+  }
+  
+  .button {
+    background-color: #424242;
+    color: #fffde7;
+    border: none;
+    margin: 20px;
+    font-size: 24px;
+    line-height: 48px;
+    padding: 0 20px;
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  
